@@ -1,15 +1,16 @@
-# JqueryMaskRails
+# JQuery Mask for Rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jquery_mask_rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+A jQuery Plugin to make masks on form fields and HTML elements.
 
-TODO: Delete this and the text above, and describe your gem
+[![Build Status](https://travis-ci.org/igorescobar/jQuery-Mask-Plugin.png)](https://travis-ci.org/igorescobar/jQuery-Mask-Plugin)
+[![Code Climate](https://codeclimate.com/github/igorescobar/jQuery-Mask-Plugin.png)](https://codeclimate.com/github/igorescobar/jQuery-Mask-Plugin)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jquery_mask_rails'
+gem 'jquery_mask_rails', '~> 0.1.0'
 ```
 
 And then execute:
@@ -20,19 +21,41 @@ Or install it yourself as:
 
     $ gem install jquery_mask_rails
 
+And then insert into your application.js
+
+    //= require jquery.mask
+
 ## Usage
 
-TODO: Write usage instructions here
+  * [Mascara Javascript para os novos telefones de São Paulo](http://bit.ly/mascara-javascript-para-os-novos-telefones-de-sao-paulo)
 
-## Development
+### Russian
+  * [jQuery Mask Plugin](http://zencoder.ru/javascript/jquery-mask-plugin/)
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+## Compatibility
+jQuery Mask Plugin has been tested with jQuery 1.7+ on all major browsers:
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+ * Firefox 2+ (Win, Mac, Linux);
+ * IE7+ (Win);
+ * Chrome 6+ (Win, Mac, Linux, Android, iPhone);
+ * Safari 3.2+ (Win, Mac, iPhone);
+ * Opera 8+ (Win, Mac, Linux, Android, iPhone).
+
+## Problems or Questions?
+Before opening a new [issue](https://github.com/igorescobar/jQuery-Mask-Plugin/issues) take a look on those frequently asked questions:
+#### [Problems with old versions of Android keyboard](https://github.com/igorescobar/jQuery-Mask-Plugin/issues/135)
+#### [Negative numbers, or currency related problems](https://github.com/igorescobar/jQuery-Mask-Plugin/issues/436#issuecomment-253176511)
+#### [Prefix or sufix on the Mask](https://github.com/igorescobar/jQuery-Mask-Plugin/issues/166)
+#### [Add validation?](https://github.com/igorescobar/jQuery-Mask-Plugin/issues/387#issuecomment-192998092)
+#### [Field type number, email not working?](https://github.com/igorescobar/jQuery-Mask-Plugin/issues/450#issuecomment-253225719)
+#### [Want to keep the placeholder as the user types?](https://github.com/igorescobar/jQuery-Mask-Plugin/issues/450#issuecomment-253225719)
+
+## Bugs?
+Did you read our [docs](https://igorescobar.github.io/jQuery-Mask-Plugin/)? Yes? Cool! So now... make sure that you have a *functional* [jsfiddle](http://jsfiddle.net/) exemplifying your problem and open an [issue](https://github.com/igorescobar/jQuery-Mask-Plugin/issues) for us. Don't know how to do it? Use this [fiddle example](http://jsfiddle.net/igorescobar/6pco4om7/).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jquery_mask_rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/maurcarvalho/jquery_mask_rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
