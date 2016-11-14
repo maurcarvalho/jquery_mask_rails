@@ -62,3 +62,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/maurca
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+## Credits
+
+This is a gem version of [JQuery mask](https://github.com/igorescobar/jQuery-Mask-Plugin).
+
