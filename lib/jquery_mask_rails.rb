@@ -1,5 +1,6 @@
 require "jquery_mask_rails/version"
 
 module JqueryMaskRails
-  # Your code goes here...
+  class Engine < Rails::Engine
+  end
 end
