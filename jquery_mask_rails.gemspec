@@ -6,12 +6,11 @@ require 'jquery_mask_rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "jquery_mask_rails"
   spec.version       = JqueryMaskRails::VERSION
-  spec.authors       = ["Maurício"]
+  spec.authors       = ["Maurício Carvalho"]
   spec.email         = ["maurcarvalho@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "A Rails version of jQuery Mask Plugin that make masks on form fields and HTML elements easy"
+  spec.homepage      = "https://github.com/maurcarvalho/jquery_mask_rails"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
