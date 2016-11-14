@@ -8,7 +8,6 @@ Gem::Specification.new do |spec|
   spec.version       = JqueryMaskRails::VERSION
   spec.authors       = ["Maurício Carvalho"]
   spec.email         = ["maurcarvalho@gmail.com"]
-
   spec.summary       = "A Rails version of jQuery Mask Plugin that make masks on form fields and HTML elements easy"
   spec.homepage      = "https://github.com/maurcarvalho/jquery_mask_rails"
   spec.license       = "MIT"
