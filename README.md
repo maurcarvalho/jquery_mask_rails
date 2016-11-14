@@ -1,6 +1,6 @@
 # JQuery Mask for Rails
 
-A jQuery Plugin to make masks on form fields and HTML elements.
+A Rails gem of the jQuery Plugin that make masks on form fields and HTML elements.
 
 [![Build Status](https://travis-ci.org/igorescobar/jQuery-Mask-Plugin.png)](https://travis-ci.org/igorescobar/jQuery-Mask-Plugin)
 [![Code Climate](https://codeclimate.com/github/igorescobar/jQuery-Mask-Plugin.png)](https://codeclimate.com/github/igorescobar/jQuery-Mask-Plugin)
